@@ -14,6 +14,10 @@ public class App {
         
         System.out.println("-> A + B = " + A + " + " + B + " = " + (A + B));
         System.out.println("-> A x B = " + A + " x " + B + " = " + (A * B));
+        System.out.println("-> A - B = " + A + " - " + B + " = " + (A - B));
+        System.out.println("-> A / B = " + A + " / " + B + " = " + (B != 0 ? A / B : "undefined"));
+
+        scan.close();
     }
     
 }
